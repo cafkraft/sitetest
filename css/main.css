@@ -1,0 +1,115 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+* {
+	box-sizing: border-box;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+li, a {
+	text-decoration: none;
+}
+
+header a {
+	color: #fff;
+}
+
+
+
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+	padding-bottom: 322px;
+	color: #fff;
+	
+}
+
+.menu {
+	display: flex;
+}
+
+ul, li {
+	display: block;
+}
+
+.container li a {
+	margin-right: 40px;
+}
+
+.logo {
+	margin-right: 69px;
+}
+
+.tel {
+	margin-left: auto;
+	font-size: 17px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.menu ul li a{
+	letter-spacing: 0.1em;
+	font-size: 14px;
+}
+
+.menu  li a:hover {
+	border-bottom: 1px solid #fff;
+	transition: all 0.5s ease;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+	color: #fff;
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+.offer h1 {
+	font-size: 100px;
+	letter-spacing: 0.1em;
+	margin-bottom: 19px;
+	margin-top: -6px;
+}
+
+/*.btn {
+	border: 1px solid #FFFFFF;
+	font-size: 17px;
+	letter-spacing: 0.1em;
+	display: block;
+	text-align: center;
+}*/
+
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #fff;
+    color: #000;
+}
